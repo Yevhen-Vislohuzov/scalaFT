@@ -1,7 +1,7 @@
 package services
 
 import play.api.data.Form
-import play.api.data.Forms.{bigDecimal, mapping, text, list}
+import play.api.data.Forms.{bigDecimal, list, mapping, text}
 import play.api.libs.functional.syntax._
 import play.api.libs.json.{Json, Reads, Writes, __}
 

@@ -3,7 +3,7 @@ package services
 import scala.collection.mutable
 
 
-class AccountStorageImpl extends AccountStorage{
+class AccountStorageImpl extends AccountStorage {
   private var accounts = mutable.Map[String, Account]()
 
   override def addAccount(account: Account): Boolean = {

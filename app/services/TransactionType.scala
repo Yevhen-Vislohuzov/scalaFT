@@ -1,6 +1,6 @@
 package services
 
-import play.api.libs.json.{JsString, JsSuccess, JsValue, Format}
+import play.api.libs.json.{Format, JsString, JsSuccess, JsValue}
 
 object TransactionType extends Enumeration {
   type TransactionType = Value
