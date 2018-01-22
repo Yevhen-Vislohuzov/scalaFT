@@ -16,7 +16,7 @@ import services._
 class Module extends AbstractModule {
 
   override def configure() = {
-    bind(classOf[TransactionManager]).to(classOf[TransactionManagerImpl])
+    bind(classOf[AccountStorage]).to(classOf[AccountStorageImpl])
   }
 
 }
