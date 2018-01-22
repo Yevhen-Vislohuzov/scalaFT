@@ -4,6 +4,8 @@
 	"description": "",
 	"order": [
 		"4c399fcf-7574-6935-2aa5-9e2aeae9efa1",
+		"2f86e18d-dd90-cd93-f1c3-c52a2ec769e9",
+		"81a4ca14-6bef-80bb-dd77-643491dbf2eb",
 		"1bfc3a36-84f3-cfa9-5632-a595b51c9566"
 	],
 	"folders": [],
@@ -38,6 +40,31 @@
 			"collectionRequestId": "4c399fcf-7574-6935-2aa5-9e2aeae9efa1"
 		},
 		{
+			"id": "2f86e18d-dd90-cd93-f1c3-c52a2ec769e9",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a3c444c6-4e72-6c79-456b-d299af44427b",
+			"data": null,
+			"dataMode": "params",
+			"name": "add account",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1516560283491,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "4c399fcf-7574-6935-2aa5-9e2aeae9efa1"
+		},
+		{
 			"id": "4c399fcf-7574-6935-2aa5-9e2aeae9efa1",
 			"headers": "",
 			"headerData": [],
@@ -59,6 +86,31 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {}
+		},
+		{
+			"id": "81a4ca14-6bef-80bb-dd77-643491dbf2eb",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a3c444c6-4e72-6c79-456b-d299af44427b",
+			"data": null,
+			"dataMode": "params",
+			"name": "get account",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1516560283491,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "2f86e18d-dd90-cd93-f1c3-c52a2ec769e9"
 		}
 	]
 }
