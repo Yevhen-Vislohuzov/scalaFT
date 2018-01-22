@@ -2,11 +2,9 @@ package services
 
 import mapper.TransactionTypeMapper
 import play.api.data.{Form, Forms}
-import play.api.data.Forms.{bigDecimal, mapping, of, text}
-import play.api.data.format.Formats.doubleFormat
-import play.api.libs.json.{Reads, Writes, __}
+import play.api.data.Forms.{bigDecimal, mapping, text}
 import play.api.libs.functional.syntax._
-import play.api.libs.json.Json
+import play.api.libs.json.{Json, Reads, Writes, __}
 import services.TransactionType.TransactionType
 
 case class Transaction(id: String,
@@ -28,7 +26,7 @@ object Transaction {
     ) (Transaction.apply _)
 
   implicit val writesItem: Writes[Transaction] = Writes[Transaction] {
-    case Transaction(amount, id, transactionType) =>
+    case Transaction(id, amount, transactionType) =>
       Json.obj(
         "id" -> id,
         "amount" -> amount,
